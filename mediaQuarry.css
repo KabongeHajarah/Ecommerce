@@ -1,0 +1,44 @@
+@media (max-width:600px){
+    body{
+        margin: 0%;
+        padding: 5%;
+       overflow-x: hidden;
+    }
+
+.girl,.new{
+    margin: auto;
+
+}
+#intro{
+    max-width: 100%;
+    max-height: fit-content;
+
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+}
+.second-div img{
+width:100%;
+height: 600px;
+}
+.lists{
+  display: inline-block;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+  
+
+}
+.footermain{
+    padding: 20px;
+}
+}
+@media (min-width:601px){
+
+body{
+    overflow-x: hidden;
+
+}
+}

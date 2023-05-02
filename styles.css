@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -30,7 +31,11 @@ header{
      
         justify-content: space-between;
     }
-   
+   .girl{
+margin-left: 550px;
+margin-top: 70px;
+   }
+
     
     .navs,li{
     list-style: none;
@@ -40,24 +45,25 @@ header{
     font-weight: bold;
     justify-content: space-between;
     }
+    .new{
+        margin-top: -230px;
+        margin-left: 100px;
+    }
     #intro{
         width: 100%;
         height: 600px;
         color: #f8f8f8;
-        background-color: rgb(209, 106, 214);
+        background-color:rgb(107, 67, 172);;
     }
-    .new{
-        margin:10px 0px 0px 100px ;
-        padding-top: 280px;
 
-    }
 
     .view{
         background-color: rgb(228, 107, 147);
     width:250px;
     height:50px;
     border: none;
-    margin:10px 0px 20px 490px ;
+    color: #f8f8f8;
+    /* margin:10px 0px 20px 490px ; */
     }
     .second-div img{
        width:90%;
@@ -70,6 +76,15 @@ header{
         gap: 10px;
        margin: 20px 10px 50px 10px;
        
+    }
+    .nextSelection{
+        margin-top: 70px;
+        color: #686869;
+
+    }
+    .alignMiddle{
+        text-align: center;
+        color: #686869;
     }
     .shoes{
         display: grid;
@@ -172,12 +187,14 @@ h4{
 
     .footermain{
         background-color: #f8f8f8;
-        color:  black;
+        color:  rgb(75, 71, 71);
         justify-content: space-between;
         display: flex;
         flex-direction: row;
         font-weight: bold;
         margin-top: 5%;
+        font-weight: lighter ;
+    
         
         }
         .only{
@@ -215,8 +232,26 @@ text-align: center;
     
     .socials img{
     width:60px;
+    margin-bottom: 30px;
     }
     .footermain li{
 text-align: center;
 
     }
+.subcribe{
+background-color: rgb(231, 129, 163) ;
+border: none;
+width:170px;
+height:50px;
+margin-top: 10px;
+color: #f8f8f8;
+
+}
+input{
+    margin-top:10px;
+    height: 40px;
+    width:300px;
+}
+.footermain p{
+    line-height: 30px;
+}
